@@ -1,38 +1,48 @@
 <!DOCTYPE hmtl>
 <html>
     <head>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Lesson 5</title>
     </head>
     <body>
         <header>
-            <img src="images/Header-logo.svg"/>
+        <div class="hinfo">
             <nav>
                 <ul>
-                    <li>მთავარი</li>
+                    <li><img src="images/Header-logo.svg"/></li>
+                    <li class="main">მთავარი</li>
                     <li>სიახლეები</li>
+                    <a href="contact.html">
                     <li>კონტაქტი</li>
+                    </a>
                 </ul>
             </nav>
+        </div>
         </header>
-        <img src="images/banner-image.jpg" alt="smartphone"/>
-        <span>FEATURED view all featured media</span>
-        <div class="leftbox">
-            <h1>Responsive web design</h1>
-            <img src="images/RWD.svg">
-            <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+        <img src="images/banner-image.jpg" class="banner" alt="smartphone"/>
+        <div class="imgdescr">
+            <span class="featured">FEATURED</span>
+            <span class="view">view all featured media</span>
         </div>
-        <div class="rightbox">
-            <h2>App development</h2>
-            <img src="images/AD.svg">
-            <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-        </div>
+        <container class="boxes">
+            <div class="leftbox">
+                <h1>Responsive web design</h1>
+                <img src="images/RWD.svg" class="rwdimg">
+                <p class="leftboxtext">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+            </div>
+            <div class="rightbox">
+                <h2>App development</h2>
+                <img src="images/AD.svg" class="adimg">
+                <p class="rightboxtext">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+            </div>
+        </container>
         <footer>
             <a href="https://www.facebook.com/">
-            <img src="images/fblogo.svg" alt="facebook">
+                <img src="images/fblogo.svg" class="fb" alt="facebook">
             </a>
-            <a href="https://www.youtube.com/" alt="youtube">
-            <img src="images/youtubelogo.svg">
+            <a href="https://www.youtube.com/" class="youtube" alt="youtube">
+                <img src="images/youtubelogo.svg">
             </a>
         </footer>
     </body>
