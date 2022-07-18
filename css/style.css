@@ -39,7 +39,8 @@ li{
 .leftbox{
     display: inline-block;
     background-color: #F2F2F2;
-    width: 570px;
+    width: 480px;
+    height: 200px;
     vertical-align: top;
     margin-top: 20px;
 }
@@ -49,32 +50,36 @@ h1{
     font-family: Roboto;
     font-size: 22px;
     color: #3D58A6;
+    margin-top: 10px;
 }
 
 .leftboxtext{
     display: inline-block;
-    width: 355px;
-    height: 143.29px;
+    width: 200px;
+    vertical-align: top;
+    margin-top: 10px;
 }
 
 .rwdimg{
     width: 103px;
-    height: 145px;
+    height: 140px;
     margin: 14px;
 }
 
 h2{
     display: block;
     font-family: BPG Nino Mtavruli;
-    font-size: 20px;
+    font-size: 22px;
     color: #3D58A6;
+    margin-top: 10px;
 
 }
 
 .rightboxtext{
     display: inline-block;
-    width: 353.49px;
-    height: 156.78px;
+    width: 200px;
+    vertical-align: top;
+    margin-top: 10px;
 }
 
 .adimg{
@@ -84,7 +89,8 @@ h2{
 .rightbox{
     display: inline-block;
     background-color: #F2F2F2;
-    width: 570px;
+    width: 480px;
+    height: 200px;
     margin-left: 89px;
     vertical-align: top;
     margin-top: 20px;
@@ -123,15 +129,12 @@ h2{
 .fb{
     border-right: #3D58A6;
     border-style: solid;
-    width: 14px;
-    height: 30px;
     margin-top: 15px;
+    padding-right: 20px;
 }
 
 .youtube{
-    width: 14px;
-    height: 30px;
-    margin-left: 35px;
+    padding-left: 20px;
 }
 
 .continfo{
